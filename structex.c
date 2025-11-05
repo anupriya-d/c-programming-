@@ -16,6 +16,7 @@ struct Student
 int main(){
 
     struct Student student1 = {"Kevin", 40,true};
+    struct Student student2 = {0};// if you define but not asign values then it is better to make them empty.
 
     printf("Name is %s\n",student1.name);
 
